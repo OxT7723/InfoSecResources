@@ -12,6 +12,10 @@
 - Bug Croud: https://bugcroud.com/crowdstream
 - Pen tester Land: https://pentester.land
 
+ ## Website resource
+ 
+ - Any.run: https://any.run/
+ allows anyone to register an account and to interactively analyze a particular file in real time
 
 ## Certs
 
